@@ -110,14 +110,14 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Wilayah::create([
-            'nama' => 'Banten',
-            'slug' => 'banten',
+            'nama' => 'Kampar',
+            'slug' => 'kampar',
             'jenis_perdin_id' => 1,
             'author_id' => 1,
         ]);
         Wilayah::create([
-            'nama' => 'BALI',
-            'slug' => 'bali',
+            'nama' => 'Pekanbaru',
+            'slug' => 'pekanbaru',
             'jenis_perdin_id' => 2,
             'author_id' => 1,
         ]);
@@ -265,8 +265,8 @@ class DatabaseSeeder extends Seeder
             'author_id' => 1,
         ]);
         Jabatan::create([
-            'nama' => 'KEPALA DINAS PUPR',
-            'slug' => 'kepala-dinas-pupr',
+            'nama' => 'KEPALA DINAS DPPKBP3A',
+            'slug' => 'kepala-dinas-dppkbp3a',
             'author_id' => 1,
         ]);
 
@@ -278,11 +278,11 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Pegawai::create([
-            'nama' => 'Acep Wahidiat',
+            'nama' => 'dandy',
             'slug' => 'acep-wahidiat',
-            'nip' => '198512142014091001',
-            'email' => 'example@gmail.com',
-            'no_hp' => '083812233445',
+            'nip' => '188888888888888888',
+            'email' => 'dandy@gmail.com',
+            'no_hp' => '08090909090909090',
             'seksi_id' => 1,
             'golongan_id' => 1,
             'pangkat_id' => 1,
@@ -291,20 +291,21 @@ class DatabaseSeeder extends Seeder
             'ketentuan_id' => 1,
             'author_id' => 1,
         ]);
-        Pegawai::create([
-            'nama' => 'Adhia Muharditia, ST',
-            'slug' => 'adhia-muharditia,-st',
-            'nip' => '199406112019031005',
-            'email' => 'examplee@gmail.com',
-            'no_hp' => '0838122334455',
-            'seksi_id' => 2,
-            'golongan_id' => 2,
-            'pangkat_id' => 2,
-            'jabatan_id' => 2,
-            'pptk' => 1,
-            'ketentuan_id' => 2,
-            'author_id' => 1,
-        ]);
+
+        // Pegawai::create([
+        //     'nama' => 'Adhia Muharditia, ST',
+        //     'slug' => 'adhia-muharditia,-st',
+        //     'nip' => '199406112019031005',
+        //     'email' => 'examplee@gmail.com',
+        //     'no_hp' => '0838122334455',
+        //     'seksi_id' => 2,
+        //     'golongan_id' => 2,
+        //     'pangkat_id' => 2,
+        //     'jabatan_id' => 2,
+        //     'pptk' => 1,
+        //     'ketentuan_id' => 2,
+        //     'author_id' => 1,
+        // ]);
 
         AlatAngkut::create([
             'nama' => 'Pesawat',
