@@ -12,10 +12,10 @@
 	content="admin,admin dashboard,admin dashboard template,admin panel template,admin template,admin theme,bootstrap 4 admin template,bootstrap 4 dashboard,bootstrap admin,bootstrap admin dashboard,bootstrap admin panel,bootstrap admin template,bootstrap admin theme,bootstrap dashboard,bootstrap form template,bootstrap panel,bootstrap ui kit,dashboard bootstrap 4,dashboard design,dashboard html,dashboard template,dashboard ui kit,envato templates,flat ui,html,html and css templates,html dashboard template,html5,jquery html,premium,premium quality,sidebar bootstrap 4,template admin bootstrap 4" />
 
 	<!-- Title -->
-	<title>SPPD | {{ $title }}</title>
+	<title>DPPKBP3A KAMPAR | {{ $title }}</title>
 
 	<!-- Favicon -->
-	<link rel="icon" href="/assets/img/logo-banten.png" type="image/x-icon" />
+	<link rel="icon" href="/assets/img/logo-kampar.png" type="image/x-icon" />
 
 	<!-- Icons css -->
 	<link href="/assets/css/icons.css" rel="stylesheet">
@@ -47,7 +47,7 @@
 				<div class="col-md-6 col-lg-6 col-xl-7 d-none d-md-flex bg-primary-transparent">
 					<div class="row wd-100p mx-auto text-center">
 						<div class="col-md-12 col-lg-12 col-xl-12 my-auto mx-auto wd-100p">
-							<img src="/assets/img/login.jpeg" class="my-auto wd-md-100p wd-xl-100p mx-auto" style="height: 100vh" alt="logo">
+							<img src="/assets/img/DPPKBP3A-Kampar.jpg" class="my-auto wd-md-100p wd-xl-100p mx-auto" style="height: 100vh" alt="logo">
 						</div>
 					</div>
 				</div>
@@ -61,7 +61,7 @@
 									<div class="card-sigin">
 										<div class="main-signup-header">
 											<h2>Login Aplikasi Surat Perintah Perjalanan Dinas (SPPD)</h2>
-											<h5 class="fw-semibold mb-4">Badan Pengelolaan Keuangan dan Aset Daerah (BPKAD)</h5>
+											<h5 class="fw-semibold mb-4">DPPKBP3A KAMPAR</h5>
 											<hr>
 											<form action="{{ route('login') }}" method="post">
 												@csrf
@@ -87,7 +87,7 @@
 											<!-- Footer opened -->
 											<div class="main-footer ht-45">
 												<div class="container-fluid pd-t-0 ht-100p">
-													<span> Copyright © 2024 <a href="/" class="text-primary">SPPD BPKAD PROVINSI BANTEN</a> All rights reserved.</span>
+													<span> Copyright © 2025 <a href="/" class="text-primary">SPPD DPPKBP3A KAMPAR</a> All rights reserved.</span>
 												</div>
 											</div>
 											<!-- Footer closed -->
