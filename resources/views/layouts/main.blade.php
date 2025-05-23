@@ -14,7 +14,7 @@
 	<title>SPPD | {{ $title }}</title>
 
 	<!-- Favicon -->
-	<link rel="icon" href="/assets/img/logo-banten.png" type="image/x-icon"/>
+	<link rel="icon" href="/assets/img/logo-kampar.png" type="image/x-icon"/>
 
 	<!-- Icons css -->
 	<link href="/assets/css/icons.css" rel="stylesheet">
@@ -47,8 +47,8 @@
 					<div class="main-header-left ">
 						<div class="responsive-logo">
 							<a href="/" class="header-logo">
-								<img src="/assets/img/logo-banten.png" class="logo-1" alt="logo">
-								<img src="/assets/img/logo-banten.png" class="dark-logo-1" alt="logo">
+								<img src="/assets/img/logo-kampar.png" class="logo-1" alt="logo">
+								<img src="/assets/img/logo-kampar.png" class="dark-logo-1" alt="logo">
 							</a>
 						</div>
 						<div class="app-sidebar__toggle" data-bs-toggle="sidebar">
@@ -119,25 +119,25 @@
 					<div class="main-sidebar-header active">
 						<a class="desktop-logo logo-light active text-decoration-none" href="/">
 							<div class="d-flex justify-content-center align-items-center">
-								<img src="/assets/img/logo-banten.png" class="main-logo m-0" alt="logo">
+								<img src="/assets/img/logo-kampar.png" class="main-logo m-0" alt="logo">
 								<h4 class="mb-0 ms-2 text-black">SPPD</h4>
 							</div>
 						</a>
 						<a class="desktop-logo logo-dark active text-decoration-none" href="/">
 							<div class="d-flex justify-content-center align-items-center">
-								<img src="/assets/img/logo-banten.png" class="main-logo m-0" alt="logo">
+								<img src="/assets/img/logo-kampar.png" class="main-logo m-0" alt="logo">
 								<h4 class="mb-0 ms-2 text-light">SPPD</h4>
 							</div>
 						</a>
 						<a class="logo-icon mobile-logo icon-light active text-decoration-none" href="/">
 							<div class="d-flex justify-content-center align-items-center">
-								<img src="/assets/img/logo-banten.png" alt="logo">
+								<img src="/assets/img/logo-kampar.png" alt="logo">
 								<h4 class="mb-0 ms-2 text-black">SPPD</h4>
 							</div>
 						</a>
 						<a class="logo-icon mobile-logo icon-dark active text-decoration-none" href="/">
 							<div class="d-flex justify-content-center align-items-center">
-								<img src="/assets/img/logo-banten.png" alt="logo">
+								<img src="/assets/img/logo-kampar.png" alt="logo">
 								<h4 class="mb-0 ms-2 text-light">SPPD</h4>
 							</div>
 						</a>

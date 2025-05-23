@@ -38,12 +38,13 @@
             </td>
             <td style="width: 100%;">
                 <div style="text-align: center;">
-                    <p style="font-size: x-large;">PEMERINTAH PROVINSI BANTEN</p>
-                    <h2 style="font-size: 23px">BADAN PENGELOLAAN KEUANGAN DAN ASET DAERAH</h2>
+                    <p style="font-size: x-large;">PEMERINTAH PROVINSI RIAU</p>
+                    <h2 style="font-size: 23px">DINAS PENGENDALIAN PENDUDUK,KELUARGA BERENCANA
+PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK</h2>
                     <small>
-                        Kawasan Pusat Pemerintahan Provinsi Banten (KP3B) <br>
-                        Jalan Syech Nawawi Al Bantani, Palima Serang Banten <br>
-                        Laman : bpkad.bantenprov.go.id Pos-el : bpkad@bantenprov.go.id Kode Pos 42171
+                        Kawasan Pusat Pemerintahan Provinsi Riau <br>
+                        Jalan Sudirman, Bangkinang Kota <br>
+                        Laman : DPPKBP3A.RIAUPROV.GO.ID Pos-el : DPPKBP3A@bRIAUPROV.GO.ID Kode Pos 28411
                     </small>
                 </div>
             </td>
@@ -67,7 +68,8 @@
                 <td style="width: 1%">1.</td>
                 <td>Nama OPD</td>
                 <td style="width: 1%;">:</td>
-                <td style="width: 75%">Badan Pengelolaan Keuangan dan Aset Daerah Provinsi Banten</td>
+                <td style="width: 75%">DINAS PENGENDALIAN PENDUDUK,KELUARGA BERENCANA
+PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK Provinsi Banten</td>
             </tr>
             <tr>
                 <td>2.</td>
@@ -102,7 +104,8 @@
         </table>
 
         <p style="margin-bottom: 20px;">
-            Yang bertandatangan dibawah ini <span style="text-transform: capitalize"></span>{{ strtolower($kwitansi_perdin->data_perdin->tanda_tangan->pegawai->jabatan->nama) }} Badan Pengelolaan Keuangan dan Aset Daerah Provinsi Banten, menyatakan bahwa saya bertanggungjawab penuh atas segala pengeluaran yang dibayarkan kepada yang berhak menerima dengan perincian sebagai berikut:
+            Yang bertandatangan dibawah ini <span style="text-transform: capitalize"></span>{{ strtolower($kwitansi_perdin->data_perdin->tanda_tangan->pegawai->jabatan->nama) }} DINAS PENGENDALIAN PENDUDUK,KELUARGA BERENCANA
+PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK Provinsi Banten, menyatakan bahwa saya bertanggungjawab penuh atas segala pengeluaran yang dibayarkan kepada yang berhak menerima dengan perincian sebagai berikut:
         </p>
 
         <table class="table-border">
@@ -159,7 +162,8 @@
         </table>
 
         <p style="margin-bottom: 20px; margin-top: 20px">
-            Bukti - bukti pengeluaran yang sah dan lengkap tersebut diatas disimpan sesuai ketentuan yang berlaku  pada Badan Pengelolaan Keuangan dan Aset Daerah Provinsi Banten untuk kelengkapan administrasi dan keperluan pemeriksaan aparat pengawas fungsional.
+            Bukti - bukti pengeluaran yang sah dan lengkap tersebut diatas disimpan sesuai ketentuan yang berlaku  pada DINAS PENGENDALIAN PENDUDUK,KELUARGA BERENCANA
+PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK Provinsi Banten untuk kelengkapan administrasi dan keperluan pemeriksaan aparat pengawas fungsional.
         </p>
         <p style="margin-bottom: 20px;">
             Demikian surat pernyataan ini dibuat dengan sebenarnya.

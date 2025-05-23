@@ -53,11 +53,12 @@
 			</div>
 			<div class="col-2">
 				<h5>
-					PEMERINTAH PROVINSI BANTEN <br>
-					BADAN PENGELOLAAN KEUANGAN DAN ASET DAERAH
+					PEMERINTAH PROVINSI RIAU <br>
+					DINAS PENGENDALIAN PENDUDUK,KELUARGA BERENCANA
+PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK
 				</h5>
 				<small>
-					Kawasan Pusat Pemerintahan Provinsi Banten (KP3B) <br>
+					Kawasan Pusat Pemerintahan Provinsi Riau <br>
 					Jl. Syech Nawawi Al- Bantani, Palima - Serang <br>
 					Telp./Fax. (0254) 267019, 267008, 267009
 				</small>
@@ -97,7 +98,8 @@
 		<table class="gap-t" style="width: 100%; border-collapse: collapse;">
 			<tr>
 				<td style="white-space: nowrap;">Sudah Terima Dari</td>
-				<td>: Kuasa Pengguna Anggaran Badan Pengelolaan Keuangan Dan Aset Daerah Provinsi Banten</td>
+				<td>: Kuasa Pengguna Anggaran DINAS PENGENDALIAN PENDUDUK,KELUARGA BERENCANA
+PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK Provinsi Banten</td>
 			</tr>
 			<tr>
 				<td style="white-space: nowrap;">Banyaknya</td>

@@ -27,7 +27,7 @@ return new class extends Migration
             $table->date('tgl_berangkat');
             $table->date('tgl_kembali');
             $table->unsignedBigInteger('alat_angkut_id');
-            $table->string('kedudukan')->default('Kota Serang');
+            $table->string('kedudukan')->default('Bangkinang Kota');
             $table->unsignedBigInteger('jenis_perdin_id');
             $table->unsignedBigInteger('tujuan_id');
             $table->unsignedBigInteger('tujuan_lain_id')->nullable();

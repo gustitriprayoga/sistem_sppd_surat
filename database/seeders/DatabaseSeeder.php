@@ -8,7 +8,9 @@ use App\Models\Bidang;
 use App\Models\Golongan;
 use App\Models\Jabatan;
 use App\Models\JenisPerdin;
+use App\Models\Kabupaten;
 use App\Models\Kegiatan;
+use App\Models\KegiatanSub;
 use App\Models\Ketentuan;
 use App\Models\Lama;
 use App\Models\LevelAdmin;
@@ -16,6 +18,7 @@ use App\Models\Pegawai;
 use App\Models\Wilayah;
 use App\Models\Pangkat;
 use App\Models\Seksi;
+use App\Models\TandaTangan;
 use App\Models\UangHarian;
 use App\Models\UangPenginapan;
 use App\Models\UangTransport;
@@ -51,37 +54,49 @@ class DatabaseSeeder extends Seeder
             'password' => bcrypt('admin'),
             'level_admin_id' => 1,
         ]);
+
         User::create([
-            'username' => 'ADM-SEKSI-1',
-            'password' => bcrypt('admin'),
+            'username' => 'operator',
+            'password' => bcrypt('operator'),
             'level_admin_id' => 2,
         ]);
 
+        User::create([
+            'username' => 'superoperator',
+            'password' => bcrypt('superoperator'),
+            'level_admin_id' => 3,
+        ]);
+
+        User::create([
+            'username' => 'approval',
+            'password' => bcrypt('approval'),
+            'level_admin_id' => 4,
+        ]);
+
+
+
         Bidang::create([
-            'nama' => 'BIDANG BINA MARGA',
-            'slug' => 'bidang-bina-marga',
+            'nama' => 'BIDANG PENGENDALIAN PENDUDUK',
+            'slug' => 'bidang-pengendalian-penduduk',
             'jenis' => 'BIDANG',
             'author_id' => 1,
         ]);
         Bidang::create([
-            'nama' => 'BIDANG JASA KONSTRUKSI',
-            'slug' => 'bidang-jasa-konstruksi',
+            'nama' => 'BIDANG KELUARGA BERENCANA',
+            'slug' => 'bidang-keluarga-berencana',
             'jenis' => 'BIDANG',
             'author_id' => 1,
         ]);
 
+
         Seksi::create([
-            'nama' => 'Koordinasi dan Sinkronisasi Perencanaan Tata Pangkat',
-            'slug' => 'koordinasi-dan-sinkronisasi-perencanaan-tata-pangkat',
-            'bidang_id' => 1,
-            'author_id' => 1,
-        ]);
-        Seksi::create([
-            'nama' => 'PELAKSANAAN PJPA',
-            'slug' => 'pelaksanaan-pjpa',
+            'nama' => 'SEKSI PELAKSANAAN PEMBINAAN JALAN',
+            'slug' => 'seksi-pelaksanaan-pembinaan-jalan',
             'bidang_id' => 2,
             'author_id' => 1,
         ]);
+
+
 
         Kegiatan::create([
             'nama' => 'Koordinasi dan Konsultasi ke Dalam dan Keluar Daerah pada UPTD Pengelolaan Daerah Aliran Sungai',
@@ -92,7 +107,7 @@ class DatabaseSeeder extends Seeder
         Kegiatan::create([
             'nama' => 'Koordinasi dan Konsultasi ke Dalam dan Keluar Daerah pada UPTD Pengelolaan Jalan Dan Jembatan',
             'slug' => 'koordinasi-dan-konsultasi-ke-dalam-dan-keluar-daerah-pada-uptd-pengelolaan-jalan-dan-jembatan',
-            'seksi_id' => 2,
+            'seksi_id' => 1,
             'author_id' => 1,
         ]);
 
@@ -102,6 +117,7 @@ class DatabaseSeeder extends Seeder
             'no_rek' => '5.1.02.04.01.0003',
             'author_id' => 1,
         ]);
+
         JenisPerdin::create([
             'nama' => 'Perjalanan Dinas Biasa',
             'slug' => 'perjalanan-dinas-biasa',
@@ -121,6 +137,21 @@ class DatabaseSeeder extends Seeder
             'jenis_perdin_id' => 2,
             'author_id' => 1,
         ]);
+
+        Kabupaten::create([
+            'nama' => 'Kota Pekanbaru',
+            'slug' => 'kota-pekanbaru',
+            'wilayah_id' => 1,
+            'author_id' => 1,
+        ]);
+
+        Kabupaten::create([
+            'nama' => 'Kabupaten Kampar',
+            'slug' => 'kabupaten-kampar',
+            'wilayah_id' => 2,
+            'author_id' => 1,
+        ]);
+
 
         Golongan::create([
             'nama' => 'Eselon I',
@@ -169,88 +200,130 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Pangkat::create([
-            'nama' => 'I - A - Juru Muda',
-            'slug' => 'i-a-juru-muda',
+            'nama' => 'I - A',
+            'slug' => 'i-a',
             'author_id' => 1,
         ]);
         Pangkat::create([
-            'nama' => 'I - B - Juru Muda Tk. I',
-            'slug' => 'i-b-juru-muda-tk.-i',
+            'nama' => 'I - B',
+            'slug' => 'i-b',
             'author_id' => 1,
         ]);
         Pangkat::create([
-            'nama' => 'I - C - Juru',
-            'slug' => 'i-c-juru',
+            'nama' => 'I - C',
+            'slug' => 'i-c',
             'author_id' => 1,
         ]);
         Pangkat::create([
-            'nama' => 'I - D - Juru Tk. I',
-            'slug' => 'i-d-juru-tk.-i',
+            'nama' => 'I - D',
+            'slug' => 'i-d',
             'author_id' => 1,
         ]);
         Pangkat::create([
-            'nama' => 'II - A - Pengatur Muda',
-            'slug' => 'ii-a-pengatur-muda',
+            'nama' => 'II - A',
+            'slug' => 'ii-a',
             'author_id' => 1,
         ]);
         Pangkat::create([
-            'nama' => 'II - B - Pengatur Muda Tk. I',
-            'slug' => 'ii-b-pengatur-muda-tk.-i',
+            'nama' => 'II - B',
+            'slug' => 'ii-b',
             'author_id' => 1,
         ]);
         Pangkat::create([
-            'nama' => 'II - C - Pengatur',
-            'slug' => 'ii-c-pengatur',
+            'nama' => 'II - C',
+            'slug' => 'ii-c',
             'author_id' => 1,
         ]);
         Pangkat::create([
-            'nama' => 'II - D - Pengatur Tk. I',
-            'slug' => 'ii-d-pengatur-tk.-i',
+            'nama' => 'II - D',
+            'slug' => 'ii-d',
             'author_id' => 1,
         ]);
         Pangkat::create([
-            'nama' => 'III - A - Penata Muda',
-            'slug' => 'iii-a-penata-muda',
+            'nama' => 'III - A',
+            'slug' => 'iii-a',
             'author_id' => 1,
         ]);
         Pangkat::create([
-            'nama' => 'III - B - Penata Muda Tk. I',
-            'slug' => 'iii-b-penata-muda-tk.-i',
+            'nama' => 'III - B ',
+            'slug' => 'iii-b',
             'author_id' => 1,
         ]);
         Pangkat::create([
-            'nama' => 'III - C - Penata',
-            'slug' => 'iii-c-penata',
+            'nama' => 'III - C',
+            'slug' => 'iii-c',
             'author_id' => 1,
         ]);
         Pangkat::create([
-            'nama' => 'III - D - Penata Tk. I',
-            'slug' => 'iii-d-penata-tk.-i',
+            'nama' => 'III - D',
+            'slug' => 'iii-d',
             'author_id' => 1,
         ]);
         Pangkat::create([
-            'nama' => 'IV - A - Pembina',
-            'slug' => 'iv-a-pembina',
+            'nama' => 'IV - A',
+            'slug' => 'iv-a',
             'author_id' => 1,
         ]);
         Pangkat::create([
-            'nama' => 'IV - B - Pembina Tk. I',
-            'slug' => 'iv-b-pembina-tk.-i',
+            'nama' => 'IV - B',
+            'slug' => 'iv-b',
             'author_id' => 1,
         ]);
         Pangkat::create([
-            'nama' => 'IV - C - Pembina Utama Muda',
-            'slug' => 'iv-c-pembina-utama-muda',
+            'nama' => 'IV - C',
+            'slug' => 'iv-c',
             'author_id' => 1,
         ]);
         Pangkat::create([
-            'nama' => 'IV - D - Pembina Utama Madya',
-            'slug' => 'iv-d-pembina-utama-madya',
+            'nama' => 'IV - D',
+            'slug' => 'iv-d',
             'author_id' => 1,
         ]);
         Pangkat::create([
-            'nama' => 'IV - E - Pembina Utama',
-            'slug' => 'iv-e-pembina-utama',
+            'nama' => 'IV - E',
+            'slug' => 'iv-e',
+            'author_id' => 1,
+        ]);
+
+        Jabatan::create([
+            'nama' => 'KEPALA DINAS',
+            'slug' => 'kepala-dinas',
+            'author_id' => 1,
+        ]);
+
+        Jabatan::create([
+            'nama' => 'SEKRETARIAT',
+            'slug' => 'sekretariat',
+            'author_id' => 1,
+        ]);
+
+        Jabatan::create([
+            'nama' => 'BIDANG PENGENDALIAN PENDUDUK',
+            'slug' => 'bidang-pengendalian-penduduk',
+            'author_id' => 1,
+        ]);
+
+        Jabatan::create([
+            'nama' => 'BIDANG KELUARGA BERENCANA',
+            'slug' => 'bidang-keluarga-berencana',
+            'author_id' => 1,
+        ]);
+
+        Jabatan::create([
+            'nama' => 'BIDANG PEMBERDAYAAN PEREMPUAN',
+            'slug' => 'bidang-pemberdayaan-perempuan',
+            'author_id' => 1,
+        ]);
+
+        Jabatan::create([
+            'nama' => 'BIDANG PERLINDUNGAN ANAK',
+            'slug' => 'bidang-perlindungan-anak',
+            'author_id' => 1,
+        ]);
+
+        Jabatan::create([
+            'nama' => 'UPTD',
+            'slug' => 'uptd',
             'author_id' => 1,
         ]);
 
@@ -264,25 +337,33 @@ class DatabaseSeeder extends Seeder
             'slug' => 'non-asn',
             'author_id' => 1,
         ]);
-        Jabatan::create([
-            'nama' => 'KEPALA DINAS DPPKBP3A',
-            'slug' => 'kepala-dinas-dppkbp3a',
-            'author_id' => 1,
-        ]);
 
-        Ketentuan::create([
-            'author_id' => 1,
-        ]);
+
         Ketentuan::create([
             'author_id' => 1,
         ]);
 
         Pegawai::create([
             'nama' => 'dandy',
-            'slug' => 'acep-wahidiat',
-            'nip' => '188888888888888888',
+            'slug' => 'dandy',
+            'nip' => '18888232888888888',
             'email' => 'dandy@gmail.com',
-            'no_hp' => '08090909090909090',
+            'no_hp' => '0809093230909090',
+            'seksi_id' => 1,
+            'golongan_id' => 1,
+            'pangkat_id' => 1,
+            'jabatan_id' => 1,
+            'pptk' => 1,
+            'ketentuan_id' => 1,
+            'author_id' => 1,
+        ]);
+
+        Pegawai::create([
+            'nama' => 'Drs. EDI AFRIZAL, M.Si',
+            'slug' => 'drs.-edi-afrizal-m.si',
+            'nip' => '188888121288888888',
+            'email' => 'edi@gmail.com',
+            'no_hp' => '08092329090909090',
             'seksi_id' => 1,
             'golongan_id' => 1,
             'pangkat_id' => 1,
@@ -292,20 +373,35 @@ class DatabaseSeeder extends Seeder
             'author_id' => 1,
         ]);
 
-        // Pegawai::create([
-        //     'nama' => 'Adhia Muharditia, ST',
-        //     'slug' => 'adhia-muharditia,-st',
-        //     'nip' => '199406112019031005',
-        //     'email' => 'examplee@gmail.com',
-        //     'no_hp' => '0838122334455',
-        //     'seksi_id' => 2,
-        //     'golongan_id' => 2,
-        //     'pangkat_id' => 2,
-        //     'jabatan_id' => 2,
-        //     'pptk' => 1,
-        //     'ketentuan_id' => 2,
-        //     'author_id' => 1,
-        // ]);
+        Pegawai::create([
+            'nama' => 'dr. NENGSIH SRI WAHYUNI',
+            'slug' => 'dr.-nengsih-sri-wahyuni',
+            'nip' => '1888888232888888',
+            'email' => 'ningsih@gmail.com',
+            'no_hp' => '08090232090909090',
+            'seksi_id' => 1,
+            'golongan_id' => 2,
+            'pangkat_id' => 2,
+            'jabatan_id' => 2,
+            'pptk' => 1,
+            'ketentuan_id' => 1,
+            'author_id' => 1,
+        ]);
+
+        Pegawai::create([
+            'nama' => 'DWI ANDRIANI, SKM, M.Kes',
+            'slug' => 'dwi-andriani-skm-m.kes',
+            'nip' => '1888888842488888888',
+            'email' => 'andriani@gmail.com',
+            'no_hp' => '08090912390909090',
+            'seksi_id' => 1,
+            'golongan_id' => 2,
+            'pangkat_id' => 3,
+            'jabatan_id' => 3,
+            'pptk' => 1,
+            'ketentuan_id' => 1,
+            'author_id' => 1,
+        ]);
 
         AlatAngkut::create([
             'nama' => 'Pesawat',
@@ -423,5 +519,72 @@ class DatabaseSeeder extends Seeder
             'lama_hari' => 3,
             'author_id' => 1,
         ]);
+
+        KegiatanSub::create([
+            'nama' => 'Koordinasi dan Konsultasi ke Dalam dan Keluar Daerah pada UPTD Pengelolaan Daerah Aliran Sungai',
+            'slug' => 'koordinasi-dan-konsultasi-ke-dalam-dan-keluar-daerah-pada-uptd-pengelolaan-daerah-aliran-sungai',
+            'kegiatan_id' => 1,
+            'author_id' => 1,
+        ]);
+
+        TandaTangan::create([
+            'pegawai_id' => 1,
+            'slug' => 'ttd-1',
+            'status' => 1,
+            'jenis_ttd' => 'pemberi_perintah',
+            'file_ttd' => null,
+            'author_id' => 1,
+        ]);
+
+        TandaTangan::create([
+            'pegawai_id' => 2,
+            'slug' => 'ttd-2',
+            'status' => 1,
+            'jenis_ttd' => 'pemberi_perintah',
+            'file_ttd' => null,
+            'author_id' => 1,
+        ]);
+
+        TandaTangan::create([
+            'pegawai_id' => 3,
+            'slug' => 'ttd-3',
+            'status' => 1,
+            'jenis_ttd' => 'pemberi_perintah',
+            'file_ttd' => null,
+            'author_id' => 1,
+        ]);
+
+        TandaTangan::create([
+            'pegawai_id' => 4,
+            'slug' => 'ttd-4',
+            'status' => 1,
+            'jenis_ttd' => 'pemberi_perintah',
+            'file_ttd' => null,
+            'author_id' => 1,
+        ]);
+
+
+
+        TandaTangan::create([
+            'pegawai_id' => 2,
+            'slug' => 'ttd-5',
+            'status' => 1,
+            'jenis_ttd' => 'pptk',
+            'file_ttd' => null,
+            'author_id' => 1,
+        ]);
+
+
+        TandaTangan::create([
+            'pegawai_id' => 3,
+            'slug' => 'ttd-6',
+            'status' => 1,
+            'jenis_ttd' => 'kuasa_pengguna_anggaran',
+            'file_ttd' => null,
+            'author_id' => 1,
+        ]);
+
+
+
     }
 }

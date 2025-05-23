@@ -24,12 +24,13 @@
             </td>
             <td style="width: 100%;">
                 <div style="text-align: center;">
-                    <p style="font-size: x-large;">PEMERINTAH PROVINSI BANTEN</p>
-                    <h2 style="font-size: 23px">BADAN PENGELOLAAN KEUANGAN DAN ASET DAERAH</h2>
+                    <p style="font-size: x-large;">PEMERINTAH PROVINSI RIAU</p>
+                    <h2 style="font-size: 23px">DINAS PENGENDALIAN PENDUDUK,KELUARGA BERENCANA
+PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK</h2>
                     <small>
-                        Kawasan Pusat Pemerintahan Provinsi Banten (KP3B) <br>
-                        Jalan Syech Nawawi Al Bantani, Palima Serang Banten <br>
-                        Laman : bpkad.bantenprov.go.id Pos-el : bpkad@bantenprov.go.id Kode Pos 42171
+                        Kawasan Pusat Pemerintahan Provinsi Riau <br>
+                        Jalan Sudirman, Bangkinang Kota <br>
+                        Laman : DPPKBP3A.RIAUPROV.GO.ID Pos-el : DPPKBP3A@bRIAUPROV.GO.ID Kode Pos 28411
                     </small>
                 </div>
             </td>
@@ -73,7 +74,9 @@
                 <td></td>
 				<td>-</td>
                 <td colspan="3">
-                    Dokumen Pelaksanaan Anggaran Satuan Kerja Perangkat Daerah (DPA-SKPD) Badan Pengelolaan Keuangan dan Aset Daerah Provinsi Banten Tahun Anggaran 2024.
+                    Dokumen Surat Perintah Perjalanan Dinas (SPPDD)  DINAS PENGENDALIAN PENDUDUK, KELUARGA BERENCANA,
+                    PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK
+                    (DPPKBP3A) KABUPATEN KAMPAR.
 				</td>
             </tr>
             <tr>
@@ -177,12 +180,13 @@
             </td>
             <td style="width: 100%;">
                 <div style="text-align: center;">
-                    <p style="font-size: x-large;">PEMERINTAH PROVINSI BANTEN</p>
-                    <h2 style="font-size: 23px">BADAN PENGELOLAAN KEUANGAN DAN ASET DAERAH</h2>
+                    <p style="font-size: x-large;">PEMERINTAH PROVINSI RIAU</p>
+                    <h2 style="font-size: 23px">DINAS PENGENDALIAN PENDUDUK,KELUARGA BERENCANA
+PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK</h2>
                     <small>
-                        Kawasan Pusat Pemerintahan Provinsi Banten (KP3B) <br>
-                        Jalan Syech Nawawi Al Bantani, Palima Serang Banten <br>
-                        Laman : bpkad.bantenprov.go.id Pos-el : bpkad@bantenprov.go.id Kode Pos 42171
+                        Kawasan Pusat Pemerintahan Provinsi Riau <br>
+                        Jalan Sudirman, Bangkinang Kota <br>
+                        Laman : DPPKBP3A.RIAUPROV.GO.ID Pos-el : DPPKBP3A@bRIAUPROV.GO.ID Kode Pos 28411
                     </small>
                 </div>
             </td>
@@ -218,7 +222,9 @@
                         {{-- dalam {{ $data_perdin->kwitansi_perdin->kegiatan_sub ? 'Kegiatan ' . strtolower($data_perdin->kwitansi_perdin->kegiatan_sub->kegiatan->nama) . ' Sub Kegiatan ' . strtolower($data_perdin->kwitansi_perdin->kegiatan_sub->nama) : '' }},&nbsp; --}}
 					</span>
 					@endif
-                    Dokumen Pelaksanaan Anggaran Satuan Kerja Perangkat Daerah (DPA-SKPD) Badan Pengelolaan Keuangan dan Aset Daerah Provinsi Banten Tahun Anggaran 2024.
+                    Dokumen Surat Perintah Perjalanan Dinas (SPPDD)  DINAS PENGENDALIAN PENDUDUK, KELUARGA BERENCANA,
+                    PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK
+                    (DPPKBP3A) KABUPATEN KAMPAR.
 				</td>
             </tr>
             <tr>

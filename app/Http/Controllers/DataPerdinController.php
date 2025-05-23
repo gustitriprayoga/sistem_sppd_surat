@@ -212,7 +212,7 @@ class DataPerdinController extends Controller
 
             $validatedData['slug'] = SlugService::createSlug(DataPerdin::class, 'slug', $request->maksud);
             $validatedData['author_id'] = auth()->user()->id;
-            $validatedData['kedudukan'] = 'Kota Serang';
+            $validatedData['kedudukan'] = 'Bangkinang Kota';
 
             $selectedPegawaiIds = explode(',', $request->pegawai_mengikuti_id);
             $validatedData['jumlah_pegawai'] = count($selectedPegawaiIds);

@@ -206,7 +206,7 @@
 							<div class="form-group">
 								<label for="kedudukan" class="form-label">Tempat Kedudukan</label>
 								<select name="kedudukan" id="kedudukan" class="form-control form-select @error('kedudukan') is-invalid @enderror" disabled>
-									<option value="Kota Serang">Kota Serang</option>
+									<option value="Bangkinang Kota">Bangkinang Kota</option>
 								</select>
 								@error('kedudukan')
 								<div class="invalid-feedback">
