@@ -207,17 +207,17 @@
 							<li class="slide {{ request()->routeIs('data-perdin*', 'rekap-pegawai', 'rekap-bidang') ? 'is-expanded' : '' }}">
 								<a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0);">
 									<svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 24 24"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M13 4H6v16h12V9h-5V4zm3 14H8v-2h8v2zm0-6v2H8v-2h8z" opacity=".3"></path><path d="M8 16h8v2H8zm0-4h8v2H8zm6-10H6c-1.1 0-2 .9-2 2v16c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11z"></path></svg>
-									<span class="side-menu__label">Perdin</span>
+									<span class="side-menu__label">Perjalanan Dinas</span>
 									<i class="angle fe fe-chevron-down"></i>
 								</a>
 								<ul class="slide-menu">
 									<li class="side-menu__label1"><a href="javascript:void(0);">Icons</a></li>
 									@can('isOperator')
-									<li><a class="slide-item {{ request()->routeIs('data-perdin.create') ? 'active' : '' }}" href="{{ route('data-perdin.create') }}">Input Perdin </a></li>
+									<li><a class="slide-item {{ request()->routeIs('data-perdin.create') ? 'active' : '' }}" href="{{ route('data-perdin.create') }}">Input Perjalanan Dinas </a></li>
 									@endcan
 									<li class="sub-slide {{ request()->routeIs('data-perdin*') ? 'is-expanded' : '' }}">
 										<a class="slide-item" data-bs-toggle="sub-slide" href="javascript:void(0);">
-											<span class="sub-side-menu__label">Data Perdin</span>
+											<span class="sub-side-menu__label">Data Pejalanan Dinas</span>
 											<i class="sub-angle fe fe-chevron-down"></i>
 										</a>
 
