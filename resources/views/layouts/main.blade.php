@@ -182,7 +182,7 @@
 									<li><a class="slide-item {{ request()->routeIs('wilayah.index') ? 'active' : '' }}" href="{{ route('wilayah.index') }}">Wilayah</a></li>
 									<li><a class="slide-item {{ request()->routeIs('kabupaten.index') ? 'active' : '' }}" href="{{ route('kabupaten.index') }}">Kota/Kabupaten</a></li>
 
-									<li class="sub-slide {{ request()->routeIs('uang-harian*', 'uang-transport*', 'uang-penginapan*') ? 'is-expanded' : '' }}">
+									{{-- <li class="sub-slide {{ request()->routeIs('uang-harian*', 'uang-transport*', 'uang-penginapan*') ? 'is-expanded' : '' }}">
 										<a class="slide-item" data-bs-toggle="sub-slide" href="javascript:void(0);">
 											<span class="sub-side-menu__label">Setting Biaya</span><i class="sub-angle fe fe-chevron-down"></i>
 										</a>
@@ -191,7 +191,7 @@
 											<li><a class="sub-side-menu__item {{ request()->routeIs('uang-transport.index') ? 'active' : '' }}" href="{{ route('uang-transport.index') }}">Uang Transport</a></li>
 											<li><a class="sub-side-menu__item {{ request()->routeIs('uang-penginapan.index') ? 'active' : '' }}" href="{{ route('uang-penginapan.index') }}">Uang Penginapan</a></li>
 										</ul>
-									</li>
+									</li> --}}
 
 									<li><a class="slide-item {{ request()->routeIs('pegawai.index') ? 'active' : '' }}" href="{{ route('pegawai.index') }}">Pegawai </a></li>
 									<li><a class="slide-item {{ request()->routeIs('pangkat.index') ? 'active' : '' }}" href="{{ route('pangkat.index') }}">Pangkat </a></li>
@@ -286,7 +286,7 @@
 									<span class="side-menu__label">Laporan Bendahara</span>
 								</a>
 							</li>
-							<li class="slide {{ request()->routeIs('ttd-visum.create') ? 'is-expanded' : '' }}">
+							{{-- <li class="slide {{ request()->routeIs('ttd-visum.create') ? 'is-expanded' : '' }}">
 								<a class="side-menu__item {{ request()->routeIs('ttd-visum.create') ? 'active' : '' }}" href="{{ route('ttd-visum.create') }}">
 									<svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 24 24" >
 										<path d="M0 0h24v24H0V0z" fill="none"/>
@@ -295,7 +295,7 @@
 									</svg>
 									<span class="side-menu__label">TandaTangan Visum 2</span>
 								</a>
-							</li>
+							</li> --}}
 						</ul>
 						<div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24" viewBox="0 0 24 24"><path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"/></svg></div>
 					</div>
