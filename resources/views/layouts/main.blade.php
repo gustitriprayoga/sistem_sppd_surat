@@ -168,7 +168,7 @@
 							<li class="slide {{ request()->routeIs('bidang*', 'seksi*', 'kegiatan*', 'kegiatan-sub*', 'lama*', 'pangkat*', 'pegawai*', 'tanda-tangan*', 'alat-angkut*', 'jabatan*', 'bendahara*', 'ketentuan*', 'user*', 'golongan*', 'jenis-perdin*', 'wilayah*', 'kabupaten*', 'uang-harian*', 'uang-transport*', 'uang-penginapan*', 'golongan*', 'jenis-perdin*', 'wilayah*') ? 'is-expanded' : '' }}">
 								<a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0);">
 									<svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 24 24"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M5 9h14V5H5v4zm2-3.5c.83 0 1.5.67 1.5 1.5S7.83 8.5 7 8.5 5.5 7.83 5.5 7 6.17 5.5 7 5.5zM5 19h14v-4H5v4zm2-3.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5z" opacity=".3"></path><path d="M20 13H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h16c.55 0 1-.45 1-1v-6c0-.55-.45-1-1-1zm-1 6H5v-4h14v4zm-12-.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5-1.5.67-1.5 1.5.67 1.5 1.5 1.5zM20 3H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h16c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1zm-1 6H5V5h14v4zM7 8.5c.83 0 1.5-.67 1.5-1.5S7.83 5.5 7 5.5 5.5 6.17 5.5 7 6.17 8.5 7 8.5z"></path></svg>
-									<span class="side-menu__label">Master</span><i class="angle fe fe-chevron-down"></i>
+									<span class="side-menu__label">Data</span><i class="angle fe fe-chevron-down"></i>
 								</a>
 								<ul class="slide-menu">
 									<li class="side-menu__label1"><a href="javascript:void(0);">Icons</a></li>
@@ -274,7 +274,7 @@
 									<span class="side-menu__label">Arsip Laporan</span>
 								</a>
 							</li>
-							<li class="slide {{ request()->routeIs('kwitansi-perdin*') ? 'is-expanded' : '' }}">
+							{{-- <li class="slide {{ request()->routeIs('kwitansi-perdin*') ? 'is-expanded' : '' }}">
 								<a class="side-menu__item {{ request()->routeIs('kwitansi-perdin.index') ? 'active' : '' }}" href="{{ route('kwitansi-perdin.index') }}">
 									<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" class="side-menu__icon" viewBox="0 0 24 24" ><g><rect fill="none"/></g><g><g/><g>
 										<path d="M21,5c-1.11-0.35-2.33-0.5-3.5-0.5c-1.95,0-4.05,0.4-5.5,1.5c-1.45-1.1-3.55-1.5-5.5-1.5S2.45,4.9,1,6v14.65 c0,0.25,0.25,0.5,0.5,0.5c0.1,0,0.15-0.05,0.25-0.05C3.1,20.45,5.05,20,6.5,20c1.95,0,4.05,0.4,5.5,1.5c1.35-0.85,3.8-1.5,5.5-1.5 c1.65,0,3.35,0.3,4.75,1.05c0.1,0.05,0.15,0.05,0.25,0.05c0.25,0,0.5-0.25,0.5-0.5V6C22.4,5.55,21.75,5.25,21,5z M3,18.5V7 c1.1-0.35,2.3-0.5,3.5-0.5c1.34,0,3.13,0.41,4.5,0.99v11.5C9.63,18.41,7.84,18,6.5,18C5.3,18,4.1,18.15,3,18.5z M21,18.5 c-1.1-0.35-2.3-0.5-3.5-0.5c-1.34,0-3.13,0.41-4.5,0.99V7.49c1.37-0.59,3.16-0.99,4.5-0.99c1.2,0,2.4,0.15,3.5,0.5V18.5z"/>
@@ -285,7 +285,7 @@
 									</svg>
 									<span class="side-menu__label">Laporan Bendahara</span>
 								</a>
-							</li>
+							</li> --}}
 							{{-- <li class="slide {{ request()->routeIs('ttd-visum.create') ? 'is-expanded' : '' }}">
 								<a class="side-menu__item {{ request()->routeIs('ttd-visum.create') ? 'active' : '' }}" href="{{ route('ttd-visum.create') }}">
 									<svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 24 24" >
