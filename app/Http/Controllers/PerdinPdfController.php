@@ -17,7 +17,7 @@ class PerdinPdfController extends Controller
         App::setLocale('id');
         $data_perdin = DataPerdin::where('slug', $slug)->first();
 
-        $imgLogo = base64_encode(file_get_contents(public_path('assets/img/logo-banten2.png')));
+        $imgLogo = base64_encode(file_get_contents(public_path('assets/img/logo-kampar.png')));
 
         $pdf = Pdf::loadView('dashboard.perdin.pdf-perdin.spt', [
             'data_perdin' => $data_perdin,
@@ -40,7 +40,7 @@ class PerdinPdfController extends Controller
 
         $ttd_kepala = $ttd_kepala ?? 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=';
 
-        $imgLogo = base64_encode(file_get_contents(public_path('assets/img/logo-banten2.png')));
+        $imgLogo = base64_encode(file_get_contents(public_path('assets/img/logo-kampar.png')));
 
         $pdf = Pdf::loadView('dashboard.perdin.pdf-perdin.visum1', [
             'data_perdin' => $data_perdin,
@@ -60,7 +60,7 @@ class PerdinPdfController extends Controller
 
         $ttd_kepala = $ttd_kepala ?? 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=';
 
-        $imgLogo = base64_encode(file_get_contents(public_path('assets/img/logo-banten2.png')));
+        $imgLogo = base64_encode(file_get_contents(public_path('assets/img/logo-kampar.png')));
 
         $pdf = Pdf::loadView('dashboard.perdin.pdf-perdin.visum2', [
             'data_perdin' => $data_perdin,
@@ -77,7 +77,7 @@ class PerdinPdfController extends Controller
         App::setLocale('id');
         $laporan_perdin = LaporanPerdin::where('id', $id)->first();
 
-        $imgLogo = base64_encode(file_get_contents(public_path('assets/img/logo-banten2.png')));
+        $imgLogo = base64_encode(file_get_contents(public_path('assets/img/logo-kampar.png')));
 
         $pdf = Pdf::loadView('dashboard.perdin.pdf-perdin.lap', [
             'laporan_perdin' => $laporan_perdin,
@@ -106,7 +106,7 @@ class PerdinPdfController extends Controller
 
         $total_uang += $kwitansi_perdin->bbm + $kwitansi_perdin->tol;
 
-        $imgLogo = base64_encode(file_get_contents(public_path('assets/img/logo-banten2.png')));
+        $imgLogo = base64_encode(file_get_contents(public_path('assets/img/logo-kampar.png')));
 
         $pdf = Pdf::loadView('dashboard.perdin.pdf-perdin.lap_bendahara', [
             'kwitansi_perdin' => $kwitansi_perdin,
@@ -126,7 +126,7 @@ class PerdinPdfController extends Controller
         $kwitansi_perdin = KwitansiPerdin::where('id', $id)->first();
         $bendahara = Bendahara::latest()->first();
 
-        $imgLogo = base64_encode(file_get_contents(public_path('assets/img/logo-banten2.png')));
+        $imgLogo = base64_encode(file_get_contents(public_path('assets/img/logo-kampar.png')));
 
         $pdf = Pdf::loadView('dashboard.perdin.pdf-perdin.kwitansi', [
             'kwitansi_perdin' => $kwitansi_perdin,
@@ -145,7 +145,7 @@ class PerdinPdfController extends Controller
         $kwitansi_perdin = KwitansiPerdin::where('id', $id)->first();
         $bendahara = Bendahara::latest()->first();
 
-        $imgLogo = base64_encode(file_get_contents(public_path('assets/img/logo-banten2.png')));
+        $imgLogo = base64_encode(file_get_contents(public_path('assets/img/logo-kampar.png')));
 
         $pdf = Pdf::loadView('dashboard.perdin.pdf-perdin.rincian_sppd', [
             'kwitansi_perdin' => $kwitansi_perdin,
@@ -163,7 +163,7 @@ class PerdinPdfController extends Controller
         App::setLocale('id');
         $kwitansi_perdin = KwitansiPerdin::where('id', $id)->first();
 
-        $imgLogo = base64_encode(file_get_contents(public_path('assets/img/logo-banten2.png')));
+        $imgLogo = base64_encode(file_get_contents(public_path('assets/img/logo-kampar.png')));
 
         $pdf = Pdf::loadView('dashboard.perdin.pdf-perdin.sptjb', [
             'kwitansi_perdin' => $kwitansi_perdin,
