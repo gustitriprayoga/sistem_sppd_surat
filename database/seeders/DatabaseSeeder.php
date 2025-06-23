@@ -55,11 +55,17 @@ class DatabaseSeeder extends Seeder
             'level_admin_id' => 1,
         ]);
 
+        User::create([
+            'username' => 'admin',
+            'password' => bcrypt('admin'),
+            'level_admin_id' => 1,
+        ]);
+
 
         User::create([
             'username' => 'operator',
             'password' => bcrypt('operator'),
-            'level_admin_id' => 1,
+            'level_admin_id' => 2,
         ]);
 
         User::create([
