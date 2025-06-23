@@ -332,7 +332,7 @@
 		<!-- Footer opened -->
 		<div class="main-footer ht-45">
 			<div class="container-fluid pd-t-0 ht-100p">
-				<span> Copyright © 2023 <a href="/" class="text-primary">SPPD</a> Provinsi Banten All rights reserved.</span>
+				<span> Copyright © 2023 <a href="/" class="text-primary">SPPD</a> Provinsi Bangkinang Kota All rights reserved.</span>
 			</div>
 		</div>
 		<!-- Footer closed -->

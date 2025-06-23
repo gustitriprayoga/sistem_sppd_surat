@@ -102,7 +102,7 @@ PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK</h2>
 						<div style="display: inline-block; text-align: left;">
                             @if ($kwitansi_perdin->data_perdin->pa_kpa)
 							<p style="margin-top: 20px;">
-								<span style="padding-right: 50px;">Serang,</span> {{ now()->isoFormat('MMMM YYYY') }} <br>
+								<span style="padding-right: 50px;">Riau,</span> {{ now()->isoFormat('MMMM YYYY') }} <br>
                                 <p>{{ $kwitansi_perdin->data_perdin->pa_kpa->jenis_ttd_f }}</p>
 							</p>
 							<img src="data:image/png;base64,{{ $kwitansi_perdin->data_perdin->pa_kpa->fileTtdEncoded }}" alt="{{ $kwitansi_perdin->data_perdin->pa_kpa->nama }}" height="70">

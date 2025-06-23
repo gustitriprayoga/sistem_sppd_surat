@@ -207,7 +207,7 @@ PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK</td>
                     <table>
                         <tr>
                             <td>Dikeluarkan di</td>
-                            <td>: Serang</td>
+                            <td>: Riau</td>
                         </tr>
                         <tr>
                             <td>Tanggal</td>

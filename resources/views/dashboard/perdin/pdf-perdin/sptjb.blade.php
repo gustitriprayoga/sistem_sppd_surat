@@ -69,7 +69,7 @@ PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK</h2>
                 <td>Nama OPD</td>
                 <td style="width: 1%;">:</td>
                 <td style="width: 75%">DINAS PENGENDALIAN PENDUDUK,KELUARGA BERENCANA
-PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK Provinsi Banten</td>
+PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK Provinsi Bangkinang Kota</td>
             </tr>
             <tr>
                 <td>2.</td>
@@ -105,7 +105,7 @@ PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK Provinsi Banten</td>
 
         <p style="margin-bottom: 20px;">
             Yang bertandatangan dibawah ini <span style="text-transform: capitalize"></span>{{ strtolower($kwitansi_perdin->data_perdin->tanda_tangan->pegawai->jabatan->nama) }} DINAS PENGENDALIAN PENDUDUK,KELUARGA BERENCANA
-PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK Provinsi Banten, menyatakan bahwa saya bertanggungjawab penuh atas segala pengeluaran yang dibayarkan kepada yang berhak menerima dengan perincian sebagai berikut:
+PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK Provinsi Bangkinang Kota, menyatakan bahwa saya bertanggungjawab penuh atas segala pengeluaran yang dibayarkan kepada yang berhak menerima dengan perincian sebagai berikut:
         </p>
 
         <table class="table-border">
@@ -163,7 +163,7 @@ PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK Provinsi Banten, menyatakan bahwa 
 
         <p style="margin-bottom: 20px; margin-top: 20px">
             Bukti - bukti pengeluaran yang sah dan lengkap tersebut diatas disimpan sesuai ketentuan yang berlaku  pada DINAS PENGENDALIAN PENDUDUK,KELUARGA BERENCANA
-PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK Provinsi Banten untuk kelengkapan administrasi dan keperluan pemeriksaan aparat pengawas fungsional.
+PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK Provinsi Bangkinang Kota untuk kelengkapan administrasi dan keperluan pemeriksaan aparat pengawas fungsional.
         </p>
         <p style="margin-bottom: 20px;">
             Demikian surat pernyataan ini dibuat dengan sebenarnya.
@@ -177,7 +177,7 @@ PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK Provinsi Banten untuk kelengkapan 
 						<div style="display: inline-block; text-align: center;">
                             @if ($kwitansi_perdin->data_perdin->pa_kpa)
 							<p style="margin-top: 20px;">
-								<span style="padding-right: 50px;">Serang,</span> {{ now()->isoFormat('MMMM YYYY') }} <br>
+								<span style="padding-right: 50px;">Riau,</span> {{ now()->isoFormat('MMMM YYYY') }} <br>
                                 {{ $kwitansi_perdin->data_perdin->pa_kpa->jenis_ttd_f }}
 							</p>
 							<img src="data:image/png;base64,{{ $kwitansi_perdin->data_perdin->pa_kpa->fileTtdEncoded }}" alt="{{ $kwitansi_perdin->data_perdin->pa_kpa->nama }}" height="70">

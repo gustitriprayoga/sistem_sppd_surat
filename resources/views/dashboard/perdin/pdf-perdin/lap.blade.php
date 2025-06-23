@@ -134,7 +134,7 @@ PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK</h2>
 			<tr>
                 <td></td>
 				<td colspan="3" style="text-align: justify">
-					Dibuat di Serang <br>
+					Dibuat di Riau <br>
                     Pada tanggal {{ now()->isoFormat('D MMMM YYYY') }} <br>
                     Yang melaksanakan Tugas
 				</td>

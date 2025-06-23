@@ -157,7 +157,7 @@ PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK</h2>
 					<div style="text-align: center;">
 						<div style="display: inline-block; text-align: left;">
 							<p>
-								Serang,  {{ Carbon\Carbon::parse($data_perdin->tgl_berangkat)->isoFormat('D MMMM YYYY') }} <br>
+								Riau,  {{ Carbon\Carbon::parse($data_perdin->tgl_berangkat)->isoFormat('D MMMM YYYY') }} <br>
 								<b style="text-transform: capitalize">{{ strtolower($data_perdin->tanda_tangan->pegawai->jabatan->nama) }}</b>
 							</p>
 							<img src="data:image/png;base64,{{ $data_perdin->tanda_tangan->fileTtdEncoded }}" alt="{{ $data_perdin->tanda_tangan->nama }}" height="70">
@@ -326,7 +326,7 @@ PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK</h2>
 					<div style="text-align: center;">
 						<div style="display: inline-block; text-align: left;">
 							<p>
-								Serang,  {{ Carbon\Carbon::parse($data_perdin->tgl_berangkat)->isoFormat('D MMMM YYYY') }} <br>
+								Riau,  {{ Carbon\Carbon::parse($data_perdin->tgl_berangkat)->isoFormat('D MMMM YYYY') }} <br>
 								<b style="text-transform: capitalize">{{ strtolower($data_perdin->tanda_tangan->pegawai->jabatan->nama) }}</b>
 							</p>
 							<img src="data:image/png;base64,{{ $data_perdin->tanda_tangan->fileTtdEncoded }}" alt="{{ $data_perdin->tanda_tangan->nama }}" height="70">

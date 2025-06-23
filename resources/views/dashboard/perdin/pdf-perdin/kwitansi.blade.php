@@ -59,7 +59,7 @@ PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK
 				</h5>
 				<small>
 					Kawasan Pusat Pemerintahan Provinsi Riau <br>
-					Jl. Syech Nawawi Al- Bantani, Palima - Serang <br>
+					Jl. Syech Nawawi Al- Bantani, Palima - Riau <br>
 					Telp./Fax. (0254) 267019, 267008, 267009
 				</small>
 			</div>
@@ -99,7 +99,7 @@ PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK
 			<tr>
 				<td style="white-space: nowrap;">Sudah Terima Dari</td>
 				<td>: Kuasa Pengguna Anggaran DINAS PENGENDALIAN PENDUDUK,KELUARGA BERENCANA
-PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK Provinsi Banten</td>
+PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK Provinsi Bangkinang Kota</td>
 			</tr>
 			<tr>
 				<td style="white-space: nowrap;">Banyaknya</td>
@@ -126,7 +126,7 @@ PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK Provinsi Banten</td>
 
 							<td>Nomor Rekening:</td>
 							<td>{{ $kwitansi_perdin->data_perdin->jenis_perdin->no_rek }}</td>
-							<td>Bank Banten</td>
+							<td>Bank Bangkinang Kota</td>
 						</tr>
 						<tr>
 							<td>Uang Transport</td>
@@ -160,7 +160,7 @@ PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK Provinsi Banten</td>
 				</td>
 				<td style="text-align: center;">
 					<div style="text-align: center;">
-						<span style="padding-right: 30px;">Serang, </span> {{ now()->isoFormat('MMMM YYYY') }} <br>
+						<span style="padding-right: 30px;">Riau, </span> {{ now()->isoFormat('MMMM YYYY') }} <br>
 						<span style="border-top: 1px solid black; padding: 0 50px">Yang menerima,</span>
 					</div>
 				</td>
@@ -184,7 +184,7 @@ PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK Provinsi Banten</td>
 						</tr>
 						<tr>
 							<td>Satuan kerja</td>
-							<td>: BPKAD Provinsi Banten</td>
+							<td>: BPKAD Provinsi Bangkinang Kota</td>
 						</tr>
 					</table>
 				</td>
