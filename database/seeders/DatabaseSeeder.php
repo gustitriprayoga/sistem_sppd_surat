@@ -75,8 +75,14 @@ class DatabaseSeeder extends Seeder
         ]);
 
         User::create([
-            'username' => 'approval',
-            'password' => bcrypt('approval'),
+            'username' => 'pegawai',
+            'password' => bcrypt('pegawai'),
+            'level_admin_id' => 4,
+        ]);
+
+        User::create([
+            'username' => 'pegawai2',
+            'password' => bcrypt('pegawai2'),
             'level_admin_id' => 4,
         ]);
 
