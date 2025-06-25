@@ -212,9 +212,12 @@
 								</a>
 								<ul class="slide-menu">
 									<li class="side-menu__label1"><a href="javascript:void(0);">Icons</a></li>
-									@can('isOperator')
+                                    @cannot('isSuperOperator')
 									<li><a class="slide-item {{ request()->routeIs('data-perdin.create') ? 'active' : '' }}" href="{{ route('data-perdin.create') }}">Input Perjalanan Dinas </a></li>
-									@endcan
+									@endcannot
+									{{-- @can('isOperator')
+									<li><a class="slide-item {{ request()->routeIs('data-perdin.create') ? 'active' : '' }}" href="{{ route('data-perdin.create') }}">Input Perjalanan Dinas </a></li>
+									@endcan --}}
 									<li class="sub-slide {{ request()->routeIs('data-perdin*') ? 'is-expanded' : '' }}">
 										<a class="slide-item" data-bs-toggle="sub-slide" href="javascript:void(0);">
 											<span class="sub-side-menu__label">Data Pejalanan Dinas</span>
@@ -332,7 +335,7 @@
 		<!-- Footer opened -->
 		<div class="main-footer ht-45">
 			<div class="container-fluid pd-t-0 ht-100p">
-				<span> Copyright © 2023 <a href="/" class="text-primary">SPPD</a> Provinsi Bangkinang Kota All rights reserved.</span>
+				<span> Copyright © 2025 <a href="/" class="text-primary">SPPD</a> Provinsi Riau All rights reserved.</span>
 			</div>
 		</div>
 		<!-- Footer closed -->

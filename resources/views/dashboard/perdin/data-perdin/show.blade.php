@@ -182,7 +182,7 @@
 	});
 	$('.not-approval').click(function(e) {
 		Swal.fire({
-			title: 'Hanya Approval yang bisa approve',
+			title: 'Hanya Sekertaris yang bisa approve',
 			icon: 'warning',
 			confirmButtonColor: '#3085d6',
 			confirmButtonText: 'Ok',
