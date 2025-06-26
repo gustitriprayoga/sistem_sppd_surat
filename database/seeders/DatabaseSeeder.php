@@ -49,11 +49,6 @@ class DatabaseSeeder extends Seeder
             'slug' => 'approval',
         ]);
 
-        User::create([
-            'username' => 'kadis',
-            'password' => bcrypt('kadis'),
-            'level_admin_id' => 1,
-        ]);
 
         User::create([
             'username' => 'admin',
@@ -68,6 +63,8 @@ class DatabaseSeeder extends Seeder
             'level_admin_id' => 2,
         ]);
 
+
+
         User::create([
             'username' => 'superoperator',
             'password' => bcrypt('superoperator'),
@@ -77,7 +74,15 @@ class DatabaseSeeder extends Seeder
         User::create([
             'username' => 'pegawai',
             'password' => bcrypt('pegawai'),
-            'level_admin_id' => 4,
+            'level_admin_id' => 3,
+        ]);
+
+
+
+        User::create([
+            'username' => 'kadis',
+            'password' => bcrypt('kadis'),
+            'level_admin_id' => 3,
         ]);
 
         User::create([
@@ -86,6 +91,11 @@ class DatabaseSeeder extends Seeder
             'level_admin_id' => 4,
         ]);
 
+        User::create([
+            'username' => 'sekertaris',
+            'password' => bcrypt('sekertaris'),
+            'level_admin_id' => 1,
+        ]);
 
 
         Bidang::create([
