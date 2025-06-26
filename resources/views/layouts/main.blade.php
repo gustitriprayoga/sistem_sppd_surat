@@ -215,9 +215,9 @@
                                     @cannot('isSuperOperator')
 									<li><a class="slide-item {{ request()->routeIs('data-perdin.create') ? 'active' : '' }}" href="{{ route('data-perdin.create') }}">Input Perjalanan Dinas </a></li>
 									@endcannot
-									{{-- @can('isOperator')
+									@can('isOperator')
 									<li><a class="slide-item {{ request()->routeIs('data-perdin.create') ? 'active' : '' }}" href="{{ route('data-perdin.create') }}">Input Perjalanan Dinas </a></li>
-									@endcan --}}
+									@endcan
 									<li class="sub-slide {{ request()->routeIs('data-perdin*') ? 'is-expanded' : '' }}">
 										<a class="slide-item" data-bs-toggle="sub-slide" href="javascript:void(0);">
 											<span class="sub-side-menu__label">Data Pejalanan Dinas</span>
