@@ -9,10 +9,6 @@ hilangkan input perjalan dinas
 buka laporan pada bagian approval / pegawai
 bisa cetak sppd
 
-pegawai ganti ke superoperator == role
 
-sekeratris ganti ke admin == role
-
-kadis pindah role == superoperator
 
 pegawai
