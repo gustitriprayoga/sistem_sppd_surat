@@ -174,7 +174,6 @@ function updatePegawaiList() {
         <td>${pegawai.nama}</td>
         <td>${pegawai.nip}</td>
         <td>${pegawai.jabatan}</td>
-        <td>${formatToRupiah(pegawai.uang_harian)}</td>
         <td>${pegawai.keterangan}</td>
         <td>
         <button type="button" class="btn btn-danger btn-sm btn-hapus-pegawai" onclick="removePegawaiFromSelected('${pegawai.id}')">Hapus</button>
@@ -242,8 +241,8 @@ function calculateTotal() {
 
     let tfootRow = `
     <tr>
-    <th colspan="4">Total:</th>
-    <td colspan="4">${formatToRupiah(totalUangHarian)}</td>
+    // <th colspan="4">Total:</th>
+    // <td colspan="4">${formatToRupiah(totalUangHarian)}</td>
     </tr>
     `;
 

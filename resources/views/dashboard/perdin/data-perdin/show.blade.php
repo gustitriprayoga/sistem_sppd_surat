@@ -32,11 +32,11 @@
 						<button class="not-approve btn btn-danger btn-sm">Lap</button>
 						@endif
 
-						@if ($data_perdin->status->approve && $data_perdin->status->lap)
+						{{-- @if ($data_perdin->status->approve && $data_perdin->status->lap)
 						<a class="btn {{ $data_perdin->status->kwitansi ? 'btn-success' : 'btn-danger' }} btn-sm" href="{{ route('kwitansi-perdin.edit', $data_perdin->kwitansi_perdin_id) }}">Kwitansi</a>
 						@else
 						<button class="not-laporan btn btn-danger btn-sm">Kwitansi</button>
-						@endif
+						@endif --}}
 					</div>
 					<div class="btn-group" role="group">
 						<a class="btn btn-info btn-sm" href="{{ route('data-perdin.edit', $data_perdin->slug) }}">

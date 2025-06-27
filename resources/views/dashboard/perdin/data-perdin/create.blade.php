@@ -340,21 +340,21 @@
 
 					<hr>
 
-					<div class="table-responsive" hidden>
+					<div class="table-responsive">
 						<table class="table mg-b-0 text-md-nowrap">
 							<thead>
 								<tr>
 									<th style="width: 1%">No</th>
 									<th>Nama</th>
 									<th>NIP</th>
-									<th>Jabatan</th>
-									<th>Uang Harian</th>
-									<th>Keterangan</th>
+									<th >Jabatan</th>
+									<th hidden>Uang Harian</th>
+									<th hidden>Keterangan</th>
 									<th style="width: 1%">Aksi</th>
 								</tr>
 							</thead>
 							<tbody id="pegawai-list"></tbody>
-							<tfoot id="pegawai-total"></tfoot>
+							<tfoot id="pegawai-total" hidden></tfoot>
 						</table>
 					</div>
 					<hr>
