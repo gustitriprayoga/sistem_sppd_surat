@@ -92,8 +92,8 @@ class DatabaseSeeder extends Seeder
         ]);
 
         User::create([
-            'username' => 'sekertaris',
-            'password' => bcrypt('sekertaris'),
+            'username' => 'sekretaris',
+            'password' => bcrypt('sekretaris'),
             'level_admin_id' => 1,
         ]);
 
@@ -377,7 +377,7 @@ class DatabaseSeeder extends Seeder
             'golongan_id' => 1,
             'pangkat_id' => 1,
             'jabatan_id' => 1,
-            'pptk' => 0,
+            'pptk' => 1,
             'ketentuan_id' => 1,
             'author_id' => 1,
         ]);
@@ -392,7 +392,7 @@ class DatabaseSeeder extends Seeder
             'golongan_id' => 2,
             'pangkat_id' => 2,
             'jabatan_id' => 2,
-            'pptk' => 1,
+            'pptk' => 0,
             'ketentuan_id' => 1,
             'author_id' => 1,
         ]);
@@ -407,7 +407,7 @@ class DatabaseSeeder extends Seeder
             'golongan_id' => 2,
             'pangkat_id' => 2,
             'jabatan_id' => 2,
-            'pptk' => 1,
+            'pptk' => 0,
             'ketentuan_id' => 1,
             'author_id' => 1,
         ]);
@@ -422,7 +422,7 @@ class DatabaseSeeder extends Seeder
             'golongan_id' => 2,
             'pangkat_id' => 2,
             'jabatan_id' => 2,
-            'pptk' => 1,
+            'pptk' => 0,
             'ketentuan_id' => 1,
             'author_id' => 1,
         ]);
@@ -437,7 +437,7 @@ class DatabaseSeeder extends Seeder
             'golongan_id' => 2,
             'pangkat_id' => 2,
             'jabatan_id' => 2,
-            'pptk' => 1,
+            'pptk' => 0,
             'ketentuan_id' => 1,
             'author_id' => 1,
         ]);
@@ -454,7 +454,7 @@ class DatabaseSeeder extends Seeder
             'golongan_id' => 2,
             'pangkat_id' => 3,
             'jabatan_id' => 3,
-            'pptk' => 1,
+            'pptk' => 0,
             'ketentuan_id' => 1,
             'author_id' => 1,
         ]);
