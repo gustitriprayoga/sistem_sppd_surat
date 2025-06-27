@@ -36,14 +36,14 @@ class PageController extends Controller
                 'chart_id' => 'compositeline3',
                 'chart_data' => [5, 10, 5, 20, 22, 12, 15, 18, 20, 15, 8, 12, 22, 5, 10, 12, 22, 15, 16, 10],
             ],
-            [
-                'title' => 'Jumlah SPPD telah Lunas',
-                'class' => 'bg-warning-gradient',
-                'total' => DataPerdin::getTotalByStatus(['kwitansi' => 1]),
-                'difference' => DataPerdin::getTotalByStatus(['kwitansi' => 1], true),
-                'chart_id' => 'compositeline4',
-                'chart_data' => [5, 9, 5, 6, 4, 12, 18, 14, 10, 15, 12, 5, 8, 5, 12, 5, 12, 10, 16, 12],
-            ],
+            // [
+            //     'title' => 'Jumlah SPPD telah Lunas',
+            //     'class' => 'bg-warning-gradient',
+            //     'total' => DataPerdin::getTotalByStatus(['kwitansi' => 1]),
+            //     'difference' => DataPerdin::getTotalByStatus(['kwitansi' => 1], true),
+            //     'chart_id' => 'compositeline4',
+            //     'chart_data' => [5, 9, 5, 6, 4, 12, 18, 14, 10, 15, 12, 5, 8, 5, 12, 5, 12, 10, 16, 12],
+            // ],
         ];
 
         $bidangs = Bidang::all();
