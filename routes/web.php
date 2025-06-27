@@ -84,7 +84,7 @@ Route::middleware('can:isAdmin')->group(function(){
 	Route::post('/dashboard/pegawai/import', [PegawaiController::class, 'import'])->name('pegawai.import')->middleware('auth');
 });
 
-Route::middleware(['can:isApproval','isOperator'])->group(function(){
+Route::middleware(['can:isApproval'])->group(function(){
 	Route::controller(StatusPerdinController::class)->group(function(){
 		Route::put('/dashboard/status-perdin/approve/{id}', 'approve')->name('status-perdin.approve')->middleware('auth');
 		Route::put('/dashboard/status-perdin/tolak/{id}', 'tolak')->name('status-perdin.tolak')->middleware('auth');

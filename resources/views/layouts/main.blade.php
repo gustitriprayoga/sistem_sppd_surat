@@ -212,9 +212,6 @@
 								</a>
 								<ul class="slide-menu">
 									<li class="side-menu__label1"><a href="javascript:void(0);">Icons</a></li>
-                                    @cannot('isSuperOperator')
-									<li><a class="slide-item {{ request()->routeIs('data-perdin.create') ? 'active' : '' }}" href="{{ route('data-perdin.create') }}">Input Perjalanan Dinas </a></li>
-									@endcannot
 									@can('isOperator')
 									<li><a class="slide-item {{ request()->routeIs('data-perdin.create') ? 'active' : '' }}" href="{{ route('data-perdin.create') }}">Input Perjalanan Dinas </a></li>
 									@endcan
