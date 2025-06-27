@@ -261,7 +261,7 @@
 								@enderror
 							</div>
 						</div>
-						<div class="col-sm-6">
+						<div class="col-sm-6" hidden>
 							<div class="form-group">
 								<label for="tujuan_lain_id" class="form-label">Tujuan Lain</label>
 								<select name="tujuan_lain_id" id="tujuan_lain_id" class="form-control form-select select2 @error('tujuan_lain_id') is-invalid @enderror">
@@ -274,7 +274,7 @@
 								@enderror
 							</div>
 						</div>
-						<div class="col-sm-6">
+						<div class="col-sm-6" hidden>
 							<div class="form-group">
 								<label for="kabupaten_lain_id" class="form-label">Kabupaten Lain <span class="text-danger">*</span></label>
 								<select name="kabupaten_lain_id" id="kabupaten_lain_id" class="form-control form-select select2 @error('kabupaten_lain_id') is-invalid @enderror">
@@ -340,7 +340,7 @@
 
 					<hr>
 
-					<div class="table-responsive">
+					<div class="table-responsive" hidden>
 						<table class="table mg-b-0 text-md-nowrap">
 							<thead>
 								<tr>

@@ -269,8 +269,8 @@
                                                 href="{{ route('alat-angkut.index') }}">Alat Angkut </a></li>
                                         <li><a class="slide-item {{ request()->routeIs('jabatan.index') ? 'active' : '' }}"
                                                 href="{{ route('jabatan.index') }}">Jabatan </a></li>
-                                        <li><a class="slide-item {{ request()->routeIs('bendahara.index') ? 'active' : '' }}"
-                                                href="{{ route('bendahara.index') }}">Bendahara </a></li>
+                                        {{-- <li><a class="slide-item {{ request()->routeIs('bendahara.index') ? 'active' : '' }}"
+                                                href="{{ route('bendahara.index') }}">Bendahara </a></li> --}}
                                         <li><a class="slide-item {{ request()->routeIs('ketentuan.index') ? 'active' : '' }}"
                                                 href="{{ route('ketentuan.index') }}">Ketentuan </a></li>
                                         <li><a class="slide-item {{ request()->routeIs('user.index') ? 'active' : '' }}"
