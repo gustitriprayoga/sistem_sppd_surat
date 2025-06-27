@@ -366,20 +366,6 @@ class DatabaseSeeder extends Seeder
             'author_id' => 1,
         ]);
 
-        Pegawai::create([
-            'nama' => 'dandy',
-            'slug' => 'dandy',
-            'nip' => '18888232888888888',
-            'email' => 'dandy@gmail.com',
-            'no_hp' => '0809093230909090',
-            'seksi_id' => 1,
-            'golongan_id' => 1,
-            'pangkat_id' => 1,
-            'jabatan_id' => 1,
-            'pptk' => 1,
-            'ketentuan_id' => 1,
-            'author_id' => 1,
-        ]);
 
         Pegawai::create([
             'nama' => 'Drs. EDI AFRIZAL, M.Si',
@@ -410,6 +396,53 @@ class DatabaseSeeder extends Seeder
             'ketentuan_id' => 1,
             'author_id' => 1,
         ]);
+
+        Pegawai::create([
+            'nama' => 'Ismulyati, SKM, M.K.L',
+            'slug' => 'ismulyati-skm-m.k.l',
+            'nip' => '197611162006052004',
+            'email' => 'ismulyati@gmail.com',
+            'no_hp' => '0812389590290',
+            'seksi_id' => 1,
+            'golongan_id' => 2,
+            'pangkat_id' => 2,
+            'jabatan_id' => 2,
+            'pptk' => 1,
+            'ketentuan_id' => 1,
+            'author_id' => 1,
+        ]);
+
+        Pegawai::create([
+            'nama' => 'Satiti Rahayu, SKM, M.K.M',
+            'slug' => 'satiti-rahayu-skm-m.k.m',
+            'nip' => '197308201992122001',
+            'email' => 'satiti@gmail.com',
+            'no_hp' => '0812389592310',
+            'seksi_id' => 1,
+            'golongan_id' => 2,
+            'pangkat_id' => 2,
+            'jabatan_id' => 2,
+            'pptk' => 1,
+            'ketentuan_id' => 1,
+            'author_id' => 1,
+        ]);
+
+        Pegawai::create([
+            'nama' => 'Zeni Kurniawati Ningsih, S.E',
+            'slug' => 'zeni-kurniawati-ninghsih-s.e',
+            'nip' => '197505181994032002',
+            'email' => 'zeni@gmail.com',
+            'no_hp' => '0812389523310',
+            'seksi_id' => 1,
+            'golongan_id' => 2,
+            'pangkat_id' => 2,
+            'jabatan_id' => 2,
+            'pptk' => 1,
+            'ketentuan_id' => 1,
+            'author_id' => 1,
+        ]);
+
+
 
         Pegawai::create([
             'nama' => 'DWI ANDRIANI, SKM, M.Kes',
