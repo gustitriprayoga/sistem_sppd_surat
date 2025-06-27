@@ -355,7 +355,7 @@
 						<td>PERHATIAN :</td>
 					</tr>
 					<tr>
-						<td>Pengguna Anggaran/Kuasa Pengguna Anggaran yang menertibkan SPD, pejabat/pegawai/pihak lain yang melakukan perjalanan dinas, para pejabat yang mengesahkan tanggal berangkat/tiba serta bendahara pengeluaran bertanggung jawab berdasarkan peraturan-peraturan Keuangan Daerah apabila negara menderita rugi akibat kesalahan, kelalaian dan kealpaannya.</td>
+						<td>Pengguna Anggaran/Sekretaris yang menertibkan SPD, pejabat/pegawai/pihak lain yang melakukan perjalanan dinas, para pejabat yang mengesahkan tanggal berangkat/tiba serta bendahara pengeluaran bertanggung jawab berdasarkan peraturan-peraturan Keuangan Daerah apabila negara menderita rugi akibat kesalahan, kelalaian dan kealpaannya.</td>
 					</tr>
 				</table>
 			</td>

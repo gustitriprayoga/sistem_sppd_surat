@@ -2,7 +2,7 @@ Kadis
 Data Dihilangkan
 Input Perdin
 
-Kuasa Pengguna Anggaran = Sekertaris
+Sekretaris = Sekertaris
 
 pegawai
 hilangkan input perjalan dinas

@@ -73,9 +73,9 @@ PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK</h2>
 			<table class="gap-t" style="width: 100%; border-collapse: collapse; border: 1px solid black;">
 				<tr>
 					<td style="text-align: center; width: 1%">1</td>
-					<td colspan="2">Pengguna Anggaran/Kuasa Pengguna Anggaran</td>
+					<td colspan="2">Pengguna Anggaran/Sekretaris</td>
 					<td style="border-right: 0;"></td>
-					<td colspan="2" style="border-left: 0; text-transform: capitalize;">{{ ($data_perdin->pa_kpa->jenis_ttd == 'pengguna_anggaran') ? 'Pengguna Anggaran' : 'Kuasa Pengguna Anggaran' }}</td>
+					<td colspan="2" style="border-left: 0; text-transform: capitalize;">{{ ($data_perdin->pa_kpa->jenis_ttd == 'pengguna_anggaran') ? 'Pengguna Anggaran' : 'Sekretaris' }}</td>
 				</tr>
 				<tr>
 					<td style="text-align: center; width: 1%">2</td>
@@ -217,7 +217,7 @@ PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK</td>
 
                     <div style="padding: 3px;">
 						@if ($data_perdin->pa_kpa)
-                        <p>{{ ($data_perdin->pa_kpa->jenis_ttd == 'pengguna_anggaran') ? 'Pengguna Anggaran' : 'Kuasa Pengguna Anggaran' }}</p>
+                        <p>{{ ($data_perdin->pa_kpa->jenis_ttd == 'pengguna_anggaran') ? 'Pengguna Anggaran' : 'Sekretaris' }}</p>
                         <img src="data:image/png;base64,{{ $data_perdin->pa_kpa->fileTtdEncoded }}" alt="{{ $data_perdin->pa_kpa->nama }}" height="70">
                         <p>{{ $data_perdin->pa_kpa->pegawai->nama }}</p>
                         <p>{{ $data_perdin->pa_kpa->pegawai->pangkat->nama ?? '' }}</p>

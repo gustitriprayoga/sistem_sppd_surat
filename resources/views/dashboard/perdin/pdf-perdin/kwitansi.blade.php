@@ -98,7 +98,7 @@ PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK
 		<table class="gap-t" style="width: 100%; border-collapse: collapse;">
 			<tr>
 				<td style="white-space: nowrap;">Sudah Terima Dari</td>
-				<td>: Kuasa Pengguna Anggaran DINAS PENGENDALIAN PENDUDUK,KELUARGA BERENCANA PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK Provinsi Bangkinang Kota</td>
+				<td>: Sekretaris DINAS PENGENDALIAN PENDUDUK,KELUARGA BERENCANA PEMEBERDAYAAN PEREMPUAN DAN PERLINDUNGAN ANAK Provinsi Bangkinang Kota</td>
 			</tr>
 			<tr>
 				<td style="white-space: nowrap;">Banyaknya</td>

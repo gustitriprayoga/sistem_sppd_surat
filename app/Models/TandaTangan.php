@@ -35,7 +35,7 @@ class TandaTangan extends Model
             } elseif ($this->jenis_ttd == 'pengguna_anggaran') {
                 return 'Pengguna Anggaran';
             } else {
-                return 'Kuasa Pengguna Anggaran';
+                return 'Sekretaris';
             }
         }
     }

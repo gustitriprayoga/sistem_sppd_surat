@@ -30,7 +30,7 @@ class TandaTanganController extends Controller
             'pemberi_perintah' => 'Pejabat Pemberi Perintah',
             'pptk' => 'Petugas Pelaksana Teknis Kegiatan',
             'pengguna_anggaran' => 'Pengguna Anggaran',
-            'kuasa_pengguna_anggaran' => 'Kuasa Pengguna Anggaran',
+            'kuasa_pengguna_anggaran' => 'Sekretaris',
             'kepala_badan' => 'Kepala Badan'
         ];
 
@@ -84,7 +84,7 @@ class TandaTanganController extends Controller
             'pemberi_perintah' => 'Pejabat Pemberi Perintah',
             'pptk' => 'Petugas Pelaksana Teknis Kegiatan',
             'pengguna_anggaran' => 'Pengguna Anggaran',
-            'kuasa_pengguna_anggaran' => 'Kuasa Pengguna Anggaran',
+            'kuasa_pengguna_anggaran' => 'Sekretaris',
             'kepala_badan' => 'Kepala Badan'
         ];
 
